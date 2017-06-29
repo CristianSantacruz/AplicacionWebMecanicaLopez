@@ -2,7 +2,7 @@
 
 **METODOLOGÍA:** XP (Programación Extrema)
 <br>
-##### Rol(es) en el equipo de desarrollo, de cada miembro del grupo de trabajo.
+#### Rol(es) en el equipo de desarrollo, de cada miembro del grupo de trabajo.
 | **ROLES** | **MIEMBRO DEL EQUIPO XP** |
 |:---------:|:-------------------------:|
 |Programador|Santacruz Cristian         |
@@ -12,7 +12,7 @@
 
 <br>
 
-##### Planificación de la primera iteración:
+#### Planificación de la primera iteración:
 * Mejora en la interfaz presentada inicialmente.
 * Modificar la base de datos para manejar el calendario.
 * Establecer fechas laborables en la base de datos para manejo de calendario.
