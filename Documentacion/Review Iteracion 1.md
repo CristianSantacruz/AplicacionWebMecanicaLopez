@@ -3,7 +3,7 @@
 **METODOLOGÍA:** XP (Programación Extrema)
 <br>
 #### Rol(es) en el equipo de desarrollo, de cada miembro del grupo de trabajo.
-| **ROLES** | **MIEMBRO DEL EQUIPO XP** |
+| <span style="color:blue;font-weight:bold">ROLES</span> | <span style="color:blue;font-weight:bold">MIEMBRO DEL EQUIPO XP</span> |
 |:---------:|:-------------------------:|
 |Programador|Santacruz Cristian         |
 |Cliente    |Oña Katherine              |
