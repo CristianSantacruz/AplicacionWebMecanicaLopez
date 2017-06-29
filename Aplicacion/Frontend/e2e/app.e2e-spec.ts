@@ -1,14 +1,14 @@
 import { FrontendPage } from './app.po';
 
-describe('frontend App', () => {
+describe('frontend App', function() {
   let page: FrontendPage;
 
   beforeEach(() => {
     page = new FrontendPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display message saying app works', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!!');
+    expect(page.getParagraphText()).toEqual('app works!');
   });
 });
