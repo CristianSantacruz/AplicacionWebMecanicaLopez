@@ -9,7 +9,9 @@
 |Cliente    |Oña Katherine              |
 |Tester     |Chicaiza Nelson            |
 |Tracker    |Cisneros Evelyn            |
+
 <br>
+
 ##### Planificación de la primera iteración:
 * Mejora en la interfaz presentada inicialmente.
 * Modificar la base de datos para manejar el calendario.
