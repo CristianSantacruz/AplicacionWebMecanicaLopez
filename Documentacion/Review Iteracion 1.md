@@ -4,7 +4,7 @@
 <br>
 ##### Rol(es) en el equipo de desarrollo, de cada miembro del grupo de trabajo.
 | **ROLES** | **MIEMBRO DEL EQUIPO XP** |
-|-----------|---------------------------|
+|:---------:|:-------------------------:|
 |Programador|Santacruz Cristian         |
 |Cliente    |Oña Katherine              |
 |Tester     |Chicaiza Nelson            |
