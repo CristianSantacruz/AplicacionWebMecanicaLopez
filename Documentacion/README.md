@@ -30,4 +30,5 @@
 
 #### Evaluación de logros sobre lo planificado:
 * Dificultad de la instalación de NodeJs en una de las máquinas del equipo XP.
+* Retraso en la implementación de funcionalidades debido a problemas de instalación de herramientas de desarrollo.
 * El resto de la planificación se cumplió con exito.
