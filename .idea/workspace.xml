@@ -15,7 +15,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="19316" lean-forward="true" selection-start-line="4" selection-start-column="19316" selection-end-line="4" selection-end-column="19316" />
+            <state relative-caret-position="166">
+              <caret line="4" column="18032" lean-forward="false" selection-start-line="4" selection-start-column="18032" selection-end-line="4" selection-end-column="18032" />
               <folding />
             </state>
           </provider>
@@ -60,8 +60,8 @@
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/services/master-url.service.ts" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/index.html" />
-        <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
       </list>
     </option>
   </component>
@@ -392,12 +392,12 @@
       <workItem from="1499033032072" duration="1271000" />
       <workItem from="1499034916900" duration="1405000" />
       <workItem from="1499036344741" duration="13710000" />
-      <workItem from="1499113022193" duration="294000" />
+      <workItem from="1499113022193" duration="459000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17565000" />
+    <option name="totallyTimeSpent" value="17730000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -601,14 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19316" lean-forward="true" selection-start-line="4" selection-start-column="19316" selection-end-line="4" selection-end-column="19316" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -620,6 +612,14 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="4" column="18032" lean-forward="false" selection-start-line="4" selection-start-column="18032" selection-end-line="4" selection-end-column="18032" />
+          <folding />
         </state>
       </provider>
     </entry>
