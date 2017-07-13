@@ -18,9 +18,11 @@
       <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="55" column="50" lean-forward="false" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-              <folding />
+            <state relative-caret-position="349">
+              <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,7 +45,6 @@
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/services/master-url.service.ts" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/index.html" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/app.routes.ts" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/login/login.component.css" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/login/login.component.html" />
@@ -51,6 +52,7 @@
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/reservas/reservas.component.css" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/reservas/calendario.js" />
         <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/reservas/reservas.component.html" />
+        <option value="$PROJECT_DIR$/Aplicacion/Frontend/src/app/home/home.component.html" />
       </list>
     </option>
   </component>
@@ -319,12 +321,12 @@
       <workItem from="1499320330974" duration="141000" />
       <workItem from="1499320544869" duration="97000" />
       <workItem from="1499357906223" duration="11956000" />
-      <workItem from="1499970961380" duration="78000" />
+      <workItem from="1499970961380" duration="147000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40399000" />
+    <option name="totallyTimeSpent" value="40468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -606,9 +608,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Aplicacion/Frontend/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="55" column="50" lean-forward="false" selection-start-line="55" selection-start-column="50" selection-end-line="55" selection-end-column="50" />
-          <folding />
+        <state relative-caret-position="349">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
