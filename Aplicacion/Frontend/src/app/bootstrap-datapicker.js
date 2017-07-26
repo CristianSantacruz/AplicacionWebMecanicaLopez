@@ -541,7 +541,7 @@
                     return false;
                 }
                 if (options.maxDate && targetMoment.isAfter(options.maxDate, granularity)) {
- -                   return false;
+                 return false;
                 }
                 if (options.daysOfWeekDisabled && granularity === 'd' && options.daysOfWeekDisabled.indexOf(targetMoment.day()) !== -1) {
                     return false;
@@ -1193,7 +1193,7 @@
                 actions[$(e.currentTarget).data('action')].apply(picker, arguments);
                 return false;
             },
-            
+
 
             /**
              * Shows the widget. Possibly will emit dp.show and dp.change

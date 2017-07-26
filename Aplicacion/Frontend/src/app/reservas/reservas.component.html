@@ -1,29 +1,3 @@
-<HEAD>
-        <TITLE>Calendario</TITLE>
-      
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="jquery.simple-dtpicker.css"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="moment.min.js"></script>
-  <script src="bootstrap-datapicker.js"></script>
-  <link type="text/css" href="jquery.simple-dtpicker.css" rel="stylesheet" />
-  <style type="text/css">
-		body { background-color: #fefefe; padding-left: 2%; padding-bottom: 100px; color: #101010; }
-		footer{ font-size:small;position:fixed;right:5px;bottom:5px; }
-		a:link, a:visited  { color: #0000ee; }
-		pre{ background-color: #eeeeee; margin-left: 1%; margin-right: 2%; padding: 2% 2% 2% 5%; }
-		p { font-size: 0.9rem; }
-		ul { font-size: 0.9rem; }
-		hr { border: 2px solid #eeeeee; margin: 2% 0% 2% -3%; }
-		h3 { border-bottom: 2px solid #eeeeee; margin: 2rem 0 2rem -1%; padding-left: 1%; padding-bottom: 0.1em; }
-		h4 { border-bottom: 1px solid #eeeeee; margin-top: 2rem; margin-left: -1%; padding-left: 1%; padding-bottom: 0.1em; }
-	</style>
-
-  </HEAD>
-
-
-
 
 <div class="container-fluid">
   <br>
@@ -159,25 +133,41 @@
         <div class="form-group">
           <label for="sucursal" class="Labels">Fecha:</label>
           <br>
-          <select style="width:362px" type="sucursal" class="form-control" id="sucursal" class="Fields" id="Fuentes2">
-            <option value="Sucursal">Seleccionar la Sucursal</option>
-            <option value="Quito">QUITO</option>
-            <option value="Guayaquil">GUAYAQUIL</option>
-            <option value="Cuenca">CUANCA</option>
-            <option value="Ambato">AMBATO</option>
-          </select>
+          <div class="col-sm-6" style="width:362px;">
+              <!-- <input type='text' class="form-control" /> -->
+              <input type="date" class="form-control" name="fechaInicio" id="fechaInicio" >
+          </div>
         </div>
 
         <div class="form-group">
           <label for="sucursal" class="Labels">Hora:</label>
           <br>
-          <select style="width:362px" type="sucursal" class="form-control" id="sucursal" class="Fields" id="Fuentes2">
-            <option value="Sucursal">Seleccionar la Sucursal</option>
-            <option value="Quito">QUITO</option>
-            <option value="Guayaquil">GUAYAQUIL</option>
-            <option value="Cuenca">CUANCA</option>
-            <option value="Ambato">AMBATO</option>
-          </select>
+          <div class="col-sm-6">
+            <div class="form-group">
+              <br>
+              <select style="width:362px" type="horario" class="form-control" id="horario" class="Fields" id="Fuentes2">
+                <option value="Horario">Seleccionar horario</option>
+                <option value="Hora">9:00</option>
+                <option value="Hora">9:30</option>
+                <option value="Hora">10:00</option>
+                <option value="Hora">10:30</option>
+                <option value="Hora">11:00</option>
+                <option value="Hora">11:30</option>
+                <option value="Hora">12:00</option>
+                <option value="Hora">12:30</option>
+                <option value="Revision">14:00</option>
+                <option value="Revision">14:30</option>
+                <option value="Revision">13:00</option>
+                <option value="Revision">13:30</option>
+                <option value="Revision">16:00</option>
+                <option value="Revision">16:30</option>
+                <option value="Revision">17:00</option>
+                <option value="Revision">17:30</option>
+
+
+              </select>
+            </div>
+          </div>
         </div>
       </form>
     </div>
@@ -192,81 +182,6 @@
     </div>
     <div class="col-sm-1"></div>
   </div>
-
-  <br>
-    
-    
-    
-    <div class="container">
-    <div class="col-sm-6" style="height:130px;">
-        <div class="form-group">
-     <label for="Fecha" class="Labels">Fecha:</label>
-            
-               <!-- <input type='text' class="form-control" /> -->
-                  
-                <input type="date" class="form-control" name="fechaInicio" id="fechaInicio" >
-                    
-                
-        </div>
-    </div>
-    <div class="col-sm-6" style="height:130px;">
-        <div class="form-group">
-            <label for="hora" class="Labels">Hora:</label>
-          <br>
-          <select style="width:362px" type="horario" class="form-control" id="horario" class="Fields" id="Fuentes2">
-            <option value="Horario">Seleccionar horario</option>
-            <option value="Hora">9:00</option>
-            <option value="Hora">9:30</option>
-            <option value="Hora">10:00</option>
-            <option value="Hora">10:30</option>
-            <option value="Hora">11:00</option>
-            <option value="Hora">11:30</option>
-            <option value="Hora">12:00</option>
-            <option value="Hora">12:30</option>
-            <option value="Revision">14:00</option>
-            <option value="Revision">14:30</option>
-            <option value="Revision">13:00</option>
-            <option value="Revision">13:30</option>
-            <option value="Revision">16:00</option>
-            <option value="Revision">16:30</option>
-            <option value="Revision">17:00</option>
-            <option value="Revision">17:30</option>
-
-<script>
-    var date = new Date();
-    var day = date.getDate();
-    var month = date.getMonth() + 1;
-    var year = date.getFullYear();
-    if (month < 10) month = "0" + month;
-    if (day < 10) day = "0" + day;
-    var today = year + "-" + month + "-" + day;
-
-    document.getElementById("fechaInicio").min = today;
-    var tomorrow = year + "-" + month + "-" + (day + 1);
-    document.getElementById("fechaSalida").min = tomorrow;
-
-    function addDays(date, days) {
-        var result = new Date(date);
-        result.setDate(result.getDate() + days);
-        return result;
-    }
-    //localStorage.setItem("fechaInicio", "dato")
-</script>
-            </select>
-</div>
-        </div>
-    </div>
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
   <!--SEPTIMA FILA -->
 
@@ -311,3 +226,23 @@
   <br>
 </div>
 
+<script>
+  var date = new Date();
+  var day = date.getDate();
+  var month = date.getMonth() + 1;
+  var year = date.getFullYear();
+  if (month < 10) month = "0" + month;
+  if (day < 10) day = "0" + day;
+  var today = year + "-" + month + "-" + day;
+
+  document.getElementById("fechaInicio").min = today;
+  var tomorrow = year + "-" + month + "-" + (day + 1);
+  document.getElementById("fechaSalida").min = tomorrow;
+
+  function addDays(date, days) {
+    var result = new Date(date);
+    result.setDate(result.getDate() + days);
+    return result;
+  }
+  //localStorage.setItem("fechaInicio", "dato")
+</script>
