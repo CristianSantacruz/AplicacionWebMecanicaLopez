@@ -37,7 +37,7 @@ module.exports = {
     },
 
     reservas:{
-      collection:"Reservas",
+      collection:"Reserva",
       via:"idCliente"
     }
 
