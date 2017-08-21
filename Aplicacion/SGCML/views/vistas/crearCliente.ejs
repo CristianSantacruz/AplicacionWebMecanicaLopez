@@ -1,0 +1,56 @@
+<div class="container-fluid">
+  <br>
+
+  <div class="row" style="background-color:white;">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-10" align="rigth">
+      <h4>Si va a registrar su cita por primera vez, por favor registre sus datos aquí:</h4>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+
+  <div class="row" style="background-color:white;">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6" align="rigth" id="Fondo">
+      <form class="form-group" action="cliente/crearCliente" method="post">
+
+        <!-- CEDULA -->
+        <div class="form-group">
+          <label>Cédula:</label>
+          <br>
+          <input required type="text" class="form-control"  placeholder="Ingrese su número de cédula" name="cedula" size="47">
+        </div>
+
+        <!-- NOMBRE -->
+        <div class="form-group">
+          <label>Cliente:</label>
+          <br>
+          <input type="text" class="form-control" size="47" placeholder="Ingrese su nombre" name="nombre" required>
+        </div>
+
+        <!-- TELEFONO -->
+        <div class="form-group">
+          <label>Teléfono:</label>
+          <br>
+          <input type="text" class="form-control" size="47" name="telefono" placeholder="Ingrese su teléfono" required>
+        </div>
+
+        <!-- EMPRESA -->
+        <div class="form-group">
+          <label>Empresa:</label>
+          <br>
+          <input type="text" class="form-control" size="47" name="empresa" required placeholder="Ingrese la empresa a la que pertenece">
+        </div>
+
+        <p align="center">
+          <button type="submit" class="btn btn-success">Registrar Cliente</button>
+        </p>
+
+
+      </form>
+    </div>
+    <div class="col-sm-3"></div>
+  </div>
+
+  <br>
+</div>

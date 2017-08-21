@@ -1,0 +1,33 @@
+<div class="row">
+  <div class="row">
+
+    <% for(var i=0; i<citas.length; i++){ %>
+    <div class="col-sm-4">
+      <h5 class="text-center"> <%=citas[i].idCliente.nombre%></h5>
+      <h5> Cédula: <%=citas[i].idCliente.cedula%></h5>
+      <h5> Teléfono: <%=citas[i].idCliente.telefono%></h5>
+      <h5> Empresa: <%=citas[i].idCliente.empresa%></h5>
+
+      <h5> Sucursal: <%=citas[i].sucursal%></h5>
+      <h5> Servicio: <%=citas[i].servicio%></h5>
+      <h5> Fecha: <%=citas[i].fecha%></h5>
+      <h5> Hora: <%=citas[i].hora%></h5>
+
+      <a style="color:white" href="/cita/borrarCita?id=<%=citas[i].id%>">
+        <button class="btn btn-block btn-danger"> Borrar Cita</button>
+      </a>
+      <br>
+    </div>
+    <%  } %>
+  </div>
+
+  <div class="col-sm-5"></div>
+  <div class="col-sm-2">
+    <a href="/administracion">
+      <button class="btn btn-primary btn-lg">Regresar</button>
+    </a>
+  </div>
+  <div class="col-sm-5"></div>
+  <br>
+</div>
+<br>

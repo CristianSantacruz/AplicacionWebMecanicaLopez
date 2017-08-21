@@ -24,20 +24,13 @@ module.exports = {
       required: true
     },
 
-    correo: {
-      type: 'string',
-      email: true,
-      required:true,
-      unique:true
-    },
-
     empresa: {
       type: 'string',
       required: true
     },
 
-    reservas:{
-      collection:"Reserva",
+    citas:{
+      collection:"Cita",
       via:"idCliente"
     }
 
