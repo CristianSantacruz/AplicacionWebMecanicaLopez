@@ -5,8 +5,8 @@ export class MasterURlService {
   private _url:string;
 
   constructor() {
-   //this._url = "http://localhost:1337/";
-   this._url = "http://192.168.100.83:4200/";
+   this._url = "http://192.168.100.83:1337/";
+   //this._url = "http://192.168.100.83:4200/";
   }
 
   get url():string{

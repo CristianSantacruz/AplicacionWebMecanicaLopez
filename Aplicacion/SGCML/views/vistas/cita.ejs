@@ -17,7 +17,7 @@
 
         <div class="form-group">
         <label for="">Cedula</label>
-          <select style="width:362px" class="form-control" name="idCliente">
+          <select style="width:300px" class="form-control" name="idCliente">
             <% for(var i=0; i<clientes.length; i++){ %>
             <option value='<%=clientes[i].id%>'>
               <%=clientes[i].cedula%>
@@ -29,7 +29,7 @@
         <!-- SUCURSAL -->
         <div class="form-group">
           <label>Sucursal:</label>
-          <select style="width:362px" type="text" class="form-control" name="sucursal">
+          <select style="width:300px" type="text" class="form-control" name="sucursal">
             <option value="Sucursal">Seleccionar la Sucursal</option>
             <option value="Quito">QUITO</option>
             <option value="Guayaquil">GUAYAQUIL</option>
@@ -42,7 +42,7 @@
         <div class="form-group">
           <label>Servicio:</label>
           <br>
-          <select style="width:362px" type="text" class="form-control" name="servicio">
+          <select style="width:300px" type="text" class="form-control" name="servicio">
             <option value="Servicio">Seleccionar el tipo de servicio</option>
             <option value="Mantenimiento">MANTENIMIENTO GENERAL</option>
             <option value="Reparacion">REPARACIÓN</option>
@@ -56,14 +56,14 @@
         <!-- FECHA -->
         <div class="form-group">
           <label>Fecha:</label>
-            <input style="width:362px" type="date" class="form-control" name="fecha" id="fechaInicio" required>
+            <input style="width:300px" type="date" class="form-control" name="fecha" id="fechaInicio" required>
         </div>
 
         <!-- HORA -->
         <div class="form-group">
           <label>Hora:</label>
           <br>
-          <select style="width:362px" type="text" class="form-control" id="horario" name="hora">
+          <select style="width:300px" type="text" class="form-control" id="horario" name="hora">
                 <option value="Horario">Seleccionar horario</option>
                 <option value="Hora">9:00</option>
                 <option value="Hora">9:30</option>
